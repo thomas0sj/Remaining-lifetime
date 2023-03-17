@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life remaining</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Enter numbers for both questions</h1>
+
+        <form id="form">
+            <input type="number" id="age" placeholder="Enter your age in years" oninput="getValue()">
+            <input type="number" id="endAge" placeholder="Enter at how old you would like to die in years" oninput="getValue()">
+            <button id="btn">Click Me</button>
+        </form>
+
+        <div id="textResults">Results :</div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
